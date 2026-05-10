@@ -356,23 +356,30 @@ body {
 
 .button h1 {
   margin: 0;
-  font-size: 2.0rem; /* pehle 3rem tha */
+
+  font-size: clamp(1.4rem, 5vw, 2rem);
+
   font-weight: 300;
+
   letter-spacing: 2px;
+
   z-index: 2;
 
-  max-width: 90%;
+  max-width: 80%;
+
   text-align: center;
-  overflow: hidden;
+
+  line-height: 1.1;
+
+  word-break: break-word;
 }
 
 .button p {
-  margin-top: 8px;
+  font-size: clamp(0.45rem, 2vw, 0.7rem);
 
-  font-size: 0.7rem;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 
-  z-index: 2;
+  text-align: center;
 }
 
 /* SHINE */
